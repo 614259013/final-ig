@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900%27');
+
+.input-group{
+    width: 100%;
+    text-align: center;
+}
+.input-group .Search{
+    border: 1px solid black;
+    
+    
+}
+
+
+.subMit{
+    font-size: 1.4rem;
+    line-height: 1.8;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0 2.4rem;
+    margin-left: 2rem;
+
+}
+
+.layoutImage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    align-content: center;
+    
+    
+    width:  80%;
+    margin-left: 10%;
+}
+
+.boxImage{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    
+    
+}
+.container2 {
+    position: relative;
+    width: 100%;
+  }
+  
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0000009c;
+    cursor: pointer;
+  }
+  
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    height: 350px;
+    margin-top: 25%;
+  }
+  .nameUser{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+  }
+  .nameUser img{
+    border-radius: 50%;
+  }
+  .nameUser p{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 5%;
+    
+    
+  }
