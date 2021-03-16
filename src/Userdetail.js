@@ -15,13 +15,13 @@ const Userdetail = ({photos}) => {
 
             <div className="gallery-item" tabindex="0">
                 {photos.map((photo)=>(
-            <div>
+            <div key={photo.id}>
             
         <div className="gallery-item-info">
-            <div class="container2">
+            <div className="container2">
             <img src={photo.urls.small} className="image" alt=""/>
-            <div class="overlay">
-                 <div class="text"><FiHeart />{photo.likes}</div>
+            <div className="overlay">
+                 <div className="text"><FiHeart />{photo.likes}</div>
             </div>
             </div>
             <ul>

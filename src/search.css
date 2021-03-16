@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900%27');
 
 .input-group{
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
     text-align: center;
 }
-.input-group .Search{
-    border: 1px solid black;
-    
-    
-}
-
 
 .subMit{
     font-size: 1.4rem;
@@ -18,7 +13,7 @@
     border-radius: 0.3rem;
     padding: 0 2.4rem;
     margin-left: 2rem;
-
+   
 }
 
 .layoutImage{

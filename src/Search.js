@@ -14,7 +14,7 @@ import './search.css';
     const ChooseUser = (user) =>{
         const url="https://api.unsplash.com/users/"+user.user.username+"?client_id="+path;
         axios.get(url).then((userData) => {
-           // console.log(userData);
+           //console.log(userData);
             setUser(userData.data)
             
             
@@ -36,9 +36,9 @@ import './search.css';
             
         })
     }
-
+    //length ขนาด
     return (
-        <>
+        <> 
         {Object.keys(user).length === 0 ?
          <div><center><h1>Search Image </h1></center><br/>
             <div className="input-group">

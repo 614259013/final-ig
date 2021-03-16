@@ -12,7 +12,7 @@ import Userdetail from './Userdetail';
         //console.log(User);
         const url="https://api.unsplash.com/users/"+User.username+"/photos?client_id="+token ;
         axios.get(url).then((ImageList) => {
-            //console.log(ImageList);
+           // console.log(ImageList);
             setImageList(ImageList.data);
         })
     }
